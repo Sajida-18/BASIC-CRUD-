@@ -23,7 +23,15 @@ function CreateStudent() {
   };
 
   return (
-    <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
+    <div 
+      className='d-flex vh-100 justify-content-center align-items-center'
+      style={{
+        backgroundImage: 'url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4MS1rcHhrOWs1Zi5qcGc.jpg")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
       <div className='w-50 bg-white rounded p-3'>
         <form onSubmit={handleSubmit}>
           <h2>Add Student</h2>
